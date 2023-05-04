@@ -1,25 +1,14 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
 <a name="readme-top"></a>
+<div align="center">
+
+  <h3><b>Vet Clinic Database PostgreSQL Project</b></h3>
+
+</div>
 
 # 📗 Table of Contents
 
-- [curriculum-databases-projects-template](#curriculum-databases-projects-template)
-  - [Getting Started](#getting-started)
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Demo Queries PostgreSQL\] ](#-demo-queries-postgresql-)
+- [� Table of Contents](#-table-of-contents)
+- [📖 \[Vet clinic database\] ](#-vet-clinic-database-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -39,13 +28,14 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Demo Queries PostgreSQL] <a name="about-project"></a>
+# 📖 [Vet clinic database] <a name="about-project"></a>
 
-> This project basically contains some of the basic queries used for working with databases, specially when adding,updating tables and making transactions to the database.
+**[Vet clinic database]** is a project shows some of sql queries applied to the vet clinic postgreSql database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
 <summary>Database</summary>
   <ul>
@@ -57,16 +47,14 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-- **Allows users to create tables**
-- **Allows users to make transaction to the table**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
-
-> No Demo yet...
+- **[Sql query to select all animals whose name ends in "mon"]**
+- **[List the name of all animals born between 2016 and 2019.]**
+- **[List the name of all animals that are neutered and have less than 3 escape attempts.]**
+- **[List the date of birth of all animals named either "Agumon" or "Pikachu".]**
+- **[List name and escape attempts of animals that weigh more than 10.5kg]**
+- **[Find all animals that are neutered.]**
+- **[Find all animals not named Gabumon.]**
+- **[Find all animals with a weight between 10.4kg and 17.3kg]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

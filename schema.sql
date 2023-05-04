@@ -26,3 +26,15 @@ ALTER TABLE animals
 	ADD FOREIGN KEY (species_id) REFERENCES species (id),
 	ADD COLUMN owner_id int,
 	ADD FOREIGN KEY (owner_id) REFERENCES owners (id);
+
+-- TABLE RELATIONS DAY 4
+CREATE TABLE vets (
+	id SERIAL PRIMARY KEY,
+	name varchar(255),
+	age int,
+	date_of_graduation date
+);
+
+CREATE TABLE specializations(id SERIAL PRIMARY KEY, vet_id int, species_id int);
+
+CREATE TABLE visits (id SERIAL PRIMARY KEY, animal_id int, vet_id int, date_of_visit date);

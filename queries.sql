@@ -110,3 +110,10 @@ WHERE sp.id IS NULL
 
 SELECT s.name FROM specializations sp INNER JOIN species s ON s.id = sp.species_id 
 GROUP BY s.name ORDER BY COUNT(*) DESC LIMIT 1
+
+
+/* DAY 1 WEEK 2 */
+
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_555@mail.com';

@@ -53,4 +53,4 @@ CREATE INDEX vet_id ON visits(vet_id ASC);
 explain analyze SELECT * FROM visits where vet_id = 2;
 
 CREATE INDEX email ON owners(email ASC);
-explain analyze SELECT * FROM owners where email = 'owner_555@mail.com';
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';

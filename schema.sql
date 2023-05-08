@@ -38,3 +38,19 @@ CREATE TABLE vets (
 CREATE TABLE specializations(id SERIAL PRIMARY KEY, vet_id int, species_id int);
 
 CREATE TABLE visits (id SERIAL PRIMARY KEY, animal_id int, vet_id int, date_of_visit date);
+
+
+/* DAY 1 WEEK 2 */
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- Find a way to decrease the execution time of the first query.
+CREATE INDEX animal_id ON visits(animal_id ASC);
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+
+-- Find a way to improve execution time of the other two queries.
+CREATE INDEX vet_id ON visits(vet_id ASC);
+explain analyze SELECT * FROM visits where vet_id = 2;
+
+CREATE INDEX email ON owners(email ASC);
+explain analyze SELECT * FROM owners where email = 'owner_555@mail.com';

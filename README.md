@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
+
 <div align="center">
 
-  <h3><b>Vet Clinic Database PostgreSQL Project</b></h3>
+  <h3><b>Clinic Database PostgreSQL Project</b></h3>
 
 </div>
 
@@ -30,7 +31,7 @@
 
 # 📖 [Vet clinic database] <a name="about-project"></a>
 
-**[Vet clinic database]** is a project shows some of sql queries applied to the vet clinic postgreSql database.
+**[Clinic database]** is a project shows some of sql queries applied to the clinic postgreSql database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,12 +71,11 @@ In order to run this project you need:
 
 PostgreSQL
 
-
 ### Setup
 
 Clone this repository to your desired folder:
 
->https://github.com/MICHAELKITH/Database-and-Tables-PostgreSQL.git
+> https://github.com/MICHAELKITH/Database-and-Tables-PostgreSQL.git
 
 ### Install
 
@@ -84,8 +84,11 @@ Clone this repository to your desired folder:
 ### Usage
 
 To run the project, execute the following command:
+
 > run the commands in Psql or in SQL terminal in pgadmin
+
 ### Run tests
+
 > no tests so far
 
 ### Deployment
@@ -97,6 +100,7 @@ To run the project, execute the following command:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
 👤
 👤 **Michael Kithinji**
 
@@ -104,11 +108,18 @@ To run the project, execute the following command:
 - Twitter: [@twitterhandle](https://twitter.com/DevMichael11)
 - LinkedIn: [LinkedIn](linkedin.com/in/dev-mike-5a09ab167)
 
+👤 **Esther Mawioo**
+
+- [Github](https://github.com/mumo-esther/mumo-esther)
+- [Linkedin](https://www.linkedin.com/in/esther-mawioo-58b636225/)
+- [Twitter](https://twitter.com/EstherMawioo)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
 - [ ] **JOIN queries**
 - [ ] **multiple tables**
 
